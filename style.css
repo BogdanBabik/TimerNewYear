@@ -1,0 +1,27 @@
+body{
+  background-color: orange;
+  font-family: 'Arial';
+}
+
+.container{
+  margin: 200px auto;
+  width: 350px;
+  text-align: center;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  border-radius: 20px;
+  border: 5px solid gray;
+}
+.counter{
+  display: flex;
+  justify-content: space-between;
+}
+.item__time{
+  margin-bottom: 10px;
+}
+.separator{
+  line-height: 70px;
+}
